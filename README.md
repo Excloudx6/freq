@@ -7,7 +7,7 @@ I recommend using with https://github.com/R0X4R/bhedak and grep for chocobo as t
 you can use this tool for findings xss and sql injection vulnerablity from multi URL.
 
 # How to Install?
-go install -v github.com/Excloudx/freq@latest
+go install -v github.com/Excloudx6/freq@latest
     or if you want the original
 go get -u https://github.com/takshal/freq
 
