@@ -41,14 +41,14 @@ func main() {
 					fmt.Println(err)
 				}
 				sb := string(body)
-				check_result := strings.Contains(sb, "chocobo")
+				check_result := strings.Contains(sb, "chocobo(")
 				// fmt.Println(check_result)
 				if check_result != false {
 					fmt.Println(string(colorRed), "Vulnerable To XSS:", domain, string(colorReset))
 				} else {
 					fmt.Println(string(colorGreen), "Not Vulnerable To XSS:", domain, string(colorReset))
 				}
-				check_result2 := strings.Contains(sb, "1337")
+				check_result2 := strings.Contains(sb, "1336")
 				if check_result2 != false {
 					fmt.Println(string(colorRed), "Check that SSTI vuln, son", domain, string(colorReset))
 				} else {
